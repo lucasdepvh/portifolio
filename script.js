@@ -104,7 +104,7 @@ if (contactForm && formMessage) {
     }
 
     if (!emailIsValid) {
-      formMessage.textContent = "Informe um e-mail valido.";
+      formMessage.textContent = "Informe um e-mail válido.";
       formMessage.classList.add("is-error");
       return;
     }
