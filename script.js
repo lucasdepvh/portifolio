@@ -119,7 +119,7 @@ if (contactForm && formMessage) {
       message,
     ].join("\n");
 
-    const whatsappUrl = `https://wa.me/69992791505?text=${encodeURIComponent(whatsappMessage)}`;
+    const whatsappUrl = `https://wa.me/5569992791505?text=${encodeURIComponent(whatsappMessage)}`;
 
     formMessage.textContent = "Abrindo WhatsApp com sua mensagem...";
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");
